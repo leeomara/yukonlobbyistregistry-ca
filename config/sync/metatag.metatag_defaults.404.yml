@@ -1,4 +1,4 @@
-uuid: b59c19ca-6b44-4ce8-912d-a03f875e0951
+uuid: 631eb25e-862a-47d8-a817-f0bbee85d79a
 langcode: en
 status: true
 dependencies: {  }
@@ -7,5 +7,5 @@ _core:
 id: '404'
 label: '404 page not found'
 tags:
-  canonical_url: '[site:url]'
-  shortlink: '[site:url]'
+  canonical_url: '<none>'
+  shortlink: '<none>'
