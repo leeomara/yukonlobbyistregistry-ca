@@ -1,6 +1,6 @@
 {
-    "name": "ytgov/lagoon-boutique-template",
-    "description": "Starting point for all YG boutique Drupal CMS websites.",
+    "name": "ytgov/lagoon-quitpath-ca",
+    "description": "Yukon Government - lobbyist - registry",
     "type": "project",
     "license": "MIT",
     "repositories": [
@@ -14,7 +14,18 @@
         }
     ],
     "require": {
-        "ytgov/lagoon-boutique-base-image": "dev-prod"
+        "ytgov/lagoon-boutique-base-image": "dev-prod11",
+        "drupal/address": "^2.0",
+        "drupal/block_class": "^4.0",
+        "drupal/quicktabs": "^4.0",
+        "drupal/views_fieldsets": "^4.0",
+        "drupal/easy_breadcrumb": "^2.0",
+        "drupal/multiple_registration": "3.x-dev@dev",
+        "drupal/email_registration": "^2.0@RC",
+        "drupal/restui": "^1.22",
+        "drupal/webform_rest": "^4.2",
+        "drupal/mask": "^2.1@RC",
+        "drupal/webform": "^6.3"
     },
     "minimum-stability": "dev",
     "prefer-stable": true,
@@ -35,6 +46,11 @@
                 "sites/development.services.yml",
                 "sites/example.settings.local.php"
             ]
+        },
+        "patches": {
+            "drupal/webform": {
+                "Webform 6.1.0 log changes": "patches/webform-6.1.0-log-changes.patch"
+            }
         }
     },
     "config": {
@@ -43,7 +59,8 @@
             "drupal/core-composer-scaffold": true,
             "cweagans/composer-patches": true,
             "composer/installers": true,
-            "dealerdirect/phpcodesniffer-composer-installer": true
+            "dealerdirect/phpcodesniffer-composer-installer": true,
+            "symfony/runtime": true
         }
     }
 }
