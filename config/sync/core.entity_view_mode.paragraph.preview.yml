@@ -1,4 +1,4 @@
-uuid: abaf8879-5c48-4681-8851-189886153509
+uuid: c6bd5fe4-8482-4b3a-a12d-11fdcfb6e518
 langcode: en
 status: true
 dependencies:
@@ -8,6 +8,6 @@ _core:
   default_config_hash: h3BeHVei4Lnyqbkao3YiF4KqoY-DhRvUNfEgKG8Rgjg
 id: paragraph.preview
 label: Preview
-description: ''
+description: null
 targetEntityType: paragraph
 cache: true

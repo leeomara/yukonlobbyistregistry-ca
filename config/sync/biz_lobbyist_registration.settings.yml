@@ -1,0 +1,9 @@
+registration_url_api: 'https://lobbyp11.shareacopy.com/web/entity/user?_format=json'
+validate_email_url_api: public/api/user_by_email
+json_path: json/user/
+base_url: 'https://lobbyp11.shareacopy.com/web/'
+error_message: 'Anti-bot verification failed.'
+scope: lobbyist_backend
+client_id: lobbyist_register_frontend_2020
+client_secret: ''
+grant_type: password

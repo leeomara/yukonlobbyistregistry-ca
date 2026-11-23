@@ -1,14 +1,14 @@
 _core:
-  default_config_hash: HlN7eAN2N4JIHsYv56V4E7sqC9bS609KwvGFjyD_mgk
+  default_config_hash: ijfbzDTN4CbE7Sr-6ubWzy_t1vH4OtU1doNCLssVz-4
 langcode: en
-uuid: REPLACE_WITH_INSTALLED_SYSTEM.SITE_UUID
-name: lagoon-boutique-template
-mail: eservices@yukon.ca
+uuid: c73582a3-19c4-434f-8a00-f64fbaeb35b7
+name: 'Lobbyist Registry'
+mail: contact@w3creatives.com
 slogan: ''
 page:
   403: ''
   404: ''
-  front: /user/login
+  front: /node
 admin_compact_mode: false
 weight_select_max: 100
 default_langcode: en

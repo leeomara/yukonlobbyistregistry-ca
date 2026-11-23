@@ -1,15 +1,18 @@
 _core:
   default_config_hash: mKwnhF-0ryfftZZP6jyqW8q9MEo9glyRkvRzSddrc0k
-site_id: '4'
-url_http: 'https://analytics.gov.yk.ca/'
-url_https: 'https://analytics.gov.yk.ca/'
+site_id: '44'
+url_http: 'https://analytics.gov.yk.ca/test/'
+url_https: 'https://analytics.gov.yk.ca/test/'
 domain_mode: 0
 visibility:
   request_path_mode: 0
   request_path_pages: "/admin\r\n/admin/*\r\n/batch\r\n/node/add*\r\n/node/*/*\r\n/user/*/*"
-  user_role_mode: 0
+  user_role_mode: 1
   user_role_roles:
-    anonymous: anonymous
+    content_editor: content_editor
+    administrator: administrator
+    role_administrator: role_administrator
+    editor: editor
   user_account_mode: 1
 track:
   mailto: true
